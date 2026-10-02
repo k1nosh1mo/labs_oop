@@ -117,6 +117,7 @@ int GetIndex(const List *list, Item *item) {
         p = p->next;
         i++;
     }
+    return -1;
 }
 void PrintList(const List *list){
     if (list == NULL){
